@@ -163,5 +163,8 @@
 <symbol id="icon-Ellipse-1" viewBox="0 0 32 32">
 <path fill="#e7e9fc" style="fill: var(--color1, #e7e9fc)" opacity="0.1" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" stroke="#000" d="M31.333 16c0 8.468-6.865 15.333-15.333 15.333s-15.333-6.865-15.333-15.333c0-8.468 6.865-15.333 15.333-15.333s15.333 6.865 15.333 15.333z"></path>
 </symbol>
+<symbol id="icon-Ellipse-7268" viewBox="0 0 32 32">
+<path fill="#91afba" style="fill: var(--color1, #91afba)" opacity="0.6" d="M18.962 13.063c1.638 1.63 1.642 4.275 0.008 5.909s-4.287 1.637-5.925 0.008c-1.638-1.63-1.642-4.275-0.008-5.909s4.287-1.637 5.925-0.008z"></path>
+</symbol>
 </defs>
 </svg>
