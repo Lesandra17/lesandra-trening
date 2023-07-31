@@ -1151,6 +1151,7 @@ margin-bottom: 8px;
     color:var(--secondary-color);}
 
     /* modal window */
+
 .backdrop {
 position: fixed;
 top: 0;
@@ -1246,6 +1247,9 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icon {
+    stroke: #E7E9FC;
 }
 .modal-btn:hover,
 .modal-btn:focus {
