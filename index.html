@@ -598,20 +598,53 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
-          <svg class="modal-icon" width="20" height="20">
-            <use
-              href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
-            ></use>
+          <svg class="modal-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-x"></use>
           </svg>
         </button>
+        <div class="modal-yaht">
+          <picture>
+            <source
+              srcset="
+                ./images/rent-pop-up-img@1x.png,
+                ./images/rent-pop-up-img@2x.png
+              "
+              media="(min-width: 320px)"
+            />
+            <source
+              srcset="
+                ./images/rent-pop-up-img@1x.png,
+                ./images/rent-pop-up-img@2x.png
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/rent-pop-up-img@1x.png,
+                ./images/rent-pop-up-img@2x.png
+              "
+              media="(min-width: 1200px)"
+            />
+            <img
+              class="modal-imig"
+              src="./images/rent-pop-up-img@1x.png"
+              srcset=""
+              alt="yaht"
+              width="287"
+              height="149"
+            />
+          </picture>
+        </div>
+
+        <div class="modal-elips">
+          <!-- <a class="modal-elips" href="" aria-label="elips">
+            <svg class="elips">
+              <use href="./images/symbol-defs.svg#icon-Ellipse-7268"></use>
+            </svg>
+          </a> -->
+        </div>
+
         <div class="modal-content">
-          <!-- <img
-            class="modal-imig"
-            src="./images/img yaht.jpg"
-            alt="yaht"
-            width="287"
-            height="149"
-          /> -->
           <h3 class="modal-title">Thank you</h3>
           <p class="modal-text">
             Thank you for choosing Yacht Adventures, your booking details have
